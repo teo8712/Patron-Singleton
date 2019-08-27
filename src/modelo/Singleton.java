@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modelo;
 
-/**
- *
- * @author estudiantes
- */
 public class Singleton {
     
     private static Singleton instancia;
@@ -35,7 +26,6 @@ public class Singleton {
     }
 
     //Getters and setters
-    
     public double getNumero1() {
         return numero1;
     }
@@ -59,7 +49,4 @@ public class Singleton {
     public void setSuma(double suma) {
         this.suma = suma;
     }
-    
-    
-    
 }
